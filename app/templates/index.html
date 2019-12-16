@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>  -- To-do List :  Keep Going! --  </h1>
+
+<!--Organize the view of table-->
+<table class="table">
+    <thead>
+      <tr>
+        <th>Create Date</th>
+        <th>Title</th>
+        <th>Type</th>
+        <th>Date / Deadline</th>
+        <th>Description</th>
+        <th>Status</th>
+        <th></th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+
+    <!--Display the table-->
+    {% for task in tasks %}
+    <tr>
+      <td>{{task.date_c}}</td>
+      <td>{{task.title}}</td>
+      <td>{{task.type}}</td>
+      <td>{{task.date}}</td>
+      <td>{{task.description}}</td>
+      <td class = "boolone">{{
+          '<img src = "/static/finish.jpg" alt = "">'|safe
+          if task.status == 'finished' else
+          '<img src = "/static/unfinish.jpg" alt = "">'|safe
+      }}</td>
+      <td><a href="/edit_task/{{task.id}}"><button type="button" class="btn btn-primary">Edit</button></a></td>
+      <td><a href="/delete_task/{{task.id}}"><button type="button" class="btn btn-primary">Delete</button></a></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+<a href="/view_task"><button type="button" class="btn btn-primary"> Order By Due Date </button></a>
+{% endblock %}

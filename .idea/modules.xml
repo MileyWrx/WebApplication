@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Numerical cw5/.idea/Numerical cw5.iml" filepath="$PROJECT_DIR$/../Numerical cw5/.idea/Numerical cw5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Web_cw1.iml" filepath="$PROJECT_DIR$/.idea/Web_cw1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../wrx_cw2/.idea/ZhangHuajian201199821_cw1.iml" filepath="$PROJECT_DIR$/../wrx_cw2/.idea/ZhangHuajian201199821_cw1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Year3/XJCO2011_WebApplicationDevelopment/Sample Code/section_9/flask-extended-example/.idea/flask-extended-example.iml" filepath="$PROJECT_DIR$/../Year3/XJCO2011_WebApplicationDevelopment/Sample Code/section_9/flask-extended-example/.idea/flask-extended-example.iml" />
+      <module fileurl="file://$USER_HOME$/Sample Code/a/section_9/.idea/section_9.iml" filepath="$USER_HOME$/Sample Code/a/section_9/.idea/section_9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../wrx_cw2/.idea/webApp_cw2.iml" filepath="$PROJECT_DIR$/../wrx_cw2/.idea/webApp_cw2.iml" />
+    </modules>
+  </component>
+</project>
